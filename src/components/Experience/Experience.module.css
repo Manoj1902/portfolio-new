@@ -1,0 +1,119 @@
+.container {
+  color: white;
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.skills {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+}
+
+.skillImageContainer img {
+  width: 75px;
+  height: 75px;
+}
+
+.skill p {
+  font: 25px;
+  font-weight: 500;
+}
+
+.history {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.historyItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 17px;
+  background: #6157ff;
+  background: linear-gradient(90deg, #6157ff 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.historyItem img {
+  width: 100px;
+}
+
+/* .historyItemDetails {} */
+
+.historyItemDetails h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.historyItemDetails p {
+  font-size: 18px;
+  color: rgb(220, 220, 220);
+  margin: 10px;
+}
+
+.historyItemDetails ul {
+  margin-top: 6px;
+  list-style-position: outside;
+  font-size: 22px;
+  list-style-type: disc;
+  margin-left: 17px;
+  color: rgb(220, 220, 220);
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 10px;
+  }
+}

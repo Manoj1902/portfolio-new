@@ -1,0 +1,42 @@
+[
+    {
+        "title" : "Android",
+        "imageSrc": "./images/skills/android.svg"
+    },
+    {
+        "title" : "XML",
+        "imageSrc": "./images/skills/xml.svg"
+    },
+    {
+        "title" : "HTML-5",
+        "imageSrc": "./images/skills/html5.svg"
+    },
+    {
+        "title" : "CSS-3",
+        "imageSrc": "./images/skills/css3.svg"
+    },
+    {
+        "title" : "React",
+        "imageSrc": "./images/skills/react.svg"
+    },
+    {
+        "title" : "Tailwind",
+        "imageSrc": "./images/skills/tailwind.svg"
+    },
+    {
+        "title" : "JavaScript",
+        "imageSrc": "./images/skills/javascript.svg"
+    },
+    {
+        "title" : "Java",
+        "imageSrc": "./images/skills/java.svg"
+    },
+    {
+        "title" : "SQLite",
+        "imageSrc": "./images/skills/sqlite.svg"
+    },
+    {
+        "title" : "GitHub",
+        "imageSrc": "./images/skills/github.svg"
+    }
+]

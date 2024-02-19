@@ -1,0 +1,31 @@
+[
+  {
+    "role": "Android Developer",
+    "company": "Mobi Tech LLP",
+    "startDate": "Apr, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Android Applications Development",
+      "Resolving Bugs",
+      "Continuously improving app performance",
+      "Website Designing"
+    ],
+    "imageSrc": "./images/companylogo/mobitechllp.svg"
+  },
+  {
+    "role": "Frontend Developer",
+    "company": "Novanative Plastix Solutions Pvt. Ltd.",
+    "startDate": "Dec, 2020",
+    "endDate": "Apr, 2023",
+    "experiences": [
+      "Design and Maintain informative websites",
+      "Solve website errors",
+      "Managing Hosting Panels",
+      "Troubleshoot issues promptly",
+      "Managed website backend panels",
+      "Utilize G-Suit for automations",
+      "Google Sheets for data management"
+    ],
+    "imageSrc": "./images/companylogo/novanativelogo.png"
+  }
+]

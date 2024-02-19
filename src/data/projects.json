@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Project 1",
+    "imageSrc": "./images/projects/examob.png",
+    "description": "Company product showcase and information website",
+    "skills": [
+      "./images/skills/html5.svg",
+      "./images/skills/css3.svg",
+      "./images/skills/javascript.svg"
+    ],
+    "demo": "https://examob.com/",
+    "source": "https://examob.com/"
+  },
+  {
+    "title": "Project 2",
+    "imageSrc": "./images/projects/examob.png",
+    "description": "Company product showcase and information website",
+    "skills": [
+      "./images/skills/html5.svg",
+      "./images/skills/css3.svg",
+      "./images/skills/javascript.svg"
+    ],
+    "demo": "https://examob.com/",
+    "source": "https://examob.com/"
+  },
+  {
+    "title": "Project 3",
+    "imageSrc": "./images/projects/examob.png",
+    "description": "Company product showcase and information website",
+    "skills": [
+      "./images/skills/html5.svg",
+      "./images/skills/css3.svg",
+      "./images/skills/javascript.svg"
+    ],
+    "demo": "https://examob.com/",
+    "source": "https://examob.com/"
+  },
+  {
+    "title": "Project 4",
+    "imageSrc": "./images/projects/examob.png",
+    "description": "Company product showcase and information website",
+    "skills": [
+      "./images/skills/html5.svg",
+      "./images/skills/css3.svg",
+      "./images/skills/javascript.svg"
+    ],
+    "demo": "https://examob.com/",
+    "source": "https://examob.com/"
+  }
+]

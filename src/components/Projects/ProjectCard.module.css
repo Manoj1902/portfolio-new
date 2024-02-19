@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  padding: 18px 18px;
+  max-width: 345px;
+}
+
+.image {
+  margin-bottom: 26px;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 6px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.skills {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  list-style: none;
+}
+
+.skill img {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: #132a53;
+  padding: 8px 28px;
+}
