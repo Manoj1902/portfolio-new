@@ -1,0 +1,134 @@
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 72px;
+  margin-top: 130px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formContainer {
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #424242;
+  padding: 20px 40px;
+  width: 60%;
+}
+.formContainer h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+
+.formContainer p {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer form label {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.formContainer form input {
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.formContainer form textarea {
+  min-height: 150px;
+  margin-bottom: 18px;
+  padding: 0.5rem;
+  font-size: 22px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+.formContainer form .submitBtn {
+  background-color: #12f7d6;
+  border-radius: 10px;
+  border: 0px;
+  width: 40%;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  padding: 0.5rem;
+}
+
+.myInfo {
+  width: 40%;
+  margin-top: 20px;
+  padding: 20px 40px;
+}
+
+.myInfo h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+
+.location {
+  background-color: #424242;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px 20px;
+  text-align: center;
+}
+.locationInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 36px;
+}
+.locationName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.locationName h3 {
+  font-size: 22px;
+}
+.locationName p {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+}
+.locationIcon {
+  font-size: 32px;
+  background-color: #12f7d6;
+  padding: 11px;
+  width: 55px;
+  height: 55px;
+  border-radius: 40px;
+}
+.links {
+  background-color: #424242;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px 40px;
+  text-align: center;
+}

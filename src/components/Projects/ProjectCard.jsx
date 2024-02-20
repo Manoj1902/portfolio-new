@@ -5,6 +5,7 @@ function ProjectCard({
   project: { title, imageSrc, description, skills, demo, source },
 }) {
   return (
+
     <div className={styles.container}>
       <img src={imageSrc} alt={title} className={styles.image} />
       <h3 className={styles.title}>{title}</h3>

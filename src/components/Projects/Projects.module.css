@@ -14,11 +14,11 @@
 
 .projects {
   margin-top: 36px;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 15px; */
   width: 100%;
 }
