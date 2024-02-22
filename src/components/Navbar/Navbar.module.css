@@ -8,11 +8,10 @@
   margin: 0 10%;
 }
 
-.title {
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
-  color: white;
+.logo {
+  width: 90px;
+  height: 90px;
+  filter: drop-shadow(4px 4px 4px #000000);
 }
 
 .menu {
@@ -21,7 +20,7 @@
 
 .menuItems {
   display: flex;
-  gap: 45px;
+  gap: 28px;
   list-style: none;
 }
 
@@ -29,6 +28,15 @@
   color: white;
   font-size: 18px;
   text-decoration: none;
+  padding: 12px 20px;
+  background-color: #3d3e42;
+  border-radius: 20px;
+  box-shadow: 4px 4px 20px -8px #000000;
+  transition: 0.3s ease-in-out;
+}
+
+.menuItems a:hover {
+  background-color: #12f7d6;
 }
 
 .menuIcon {
@@ -63,11 +71,16 @@
     display: none;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
+    gap: 15px;
     border-radius: 15px;
     background-color: #3d3e42;
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuItems a {
+    box-shadow: none;
+    border-radius: 0;
   }
 
   .menuOpen {

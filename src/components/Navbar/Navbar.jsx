@@ -12,9 +12,8 @@ function Navbar() {
 
   return (
     <nav className={`${styles.navbar}`}>
-      <a href="/" className={styles.title}>
-        Manoj
-      </a>
+      {/* <a href="/">Manoj</a> */}
+      <img src="./images/logo.svg" alt="logo" className={styles.logo} />
       <div className={styles.menu}>
         <div className={styles.menuIcon} onClick={handleClicked}>
           {clicked ? <IoClose /> : <IoMenu />}

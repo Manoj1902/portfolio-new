@@ -3,11 +3,158 @@
   margin-top: 120px;
   background-color: #2b2b2b;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   width: 100vw;
-  padding: 56px 10%;
   gap: 10px;
+}
+
+.footerContent {
+  padding: 10% 10% 5% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.footerAbout {
+  width: 20vw;
+}
+
+.footerAbout p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.footerAboutSocial {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.footerAboutSocial li {
+  text-align: center;
+}
+
+.socialLink {
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  transition: 0.4s ease-in-out;
+}
+
+.socialLink:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+.footerMyInfoLinks {
+  width: 20vw;
+}
+
+.footerMyInfoLinks h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footerMyInfoLinks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.footerMyInfoLinks ul li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footerMyInfoLinks ul li:hover {
+  cursor: pointer;
+}
+
+.footerMyInfoLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  transition: 0.4s ease-in-out;
+}
+.footerMyInfoLinks a:hover {
+  color: #12f7d6;
+}
+.footerMyInfoLinks p {
+  font-size: 15px;
+  color: white;
+}
+
+.InfoLink {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.footerQuickLinks {
+  width: 20vw;
+}
+.footerQuickLinks h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.footerQuickLinks ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.footerQuickLinks ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.footerServices {
+  width: 20vw;
+}
+.footerServices h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footerServices ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  margin-top: 30px;
+}
+.footerServices li {
+  font-size: 15;
+}
+
+.cpyRight {
+  background-color: #222222;
+  margin: 0;
+  width: 100vw;
+  padding: 20px;
+}
+
+.cpyRight p {
+  font-size: 14px;
+  color: rgb(211, 211, 211);
 }
 
 .title h2 {
@@ -33,14 +180,13 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 10px;
 }
 
 .link a {
   color: white;
   text-decoration: none;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 16px;
   letter-spacing: 1.5px;
 }
 
@@ -48,17 +194,38 @@
   font-size: 40px;
 }
 
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (max-width: 830px) {
-  .container {
-    flex-direction: column;
-    gap: 23px;
-  }
-  .title {
+  .footerContent {
+    padding: 10% 10% 5% 10%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
   }
-  .links {
-    align-items: center;
+
+  .footerAbout {
+    width: 100%;
+  }
+
+  .footerMyInfoLinks {
+    width: 100%;
+  }
+
+  .linksContainer {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footerQuickLinks {
+    width: 49vw;
+  }
+  .footerServices {
+    width: 49vw;
   }
 }

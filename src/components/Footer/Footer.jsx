@@ -1,31 +1,92 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { MdEmail } from "react-icons/md";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaMobileAlt } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 
 function Footer() {
   return (
     <footer id="footer" className={styles.container}>
-      <div className={styles.title}>
-        <h2>Contact</h2>
-        <p>Feel Free to react out</p>
+      <div className={styles.footerContent}>
+        <div className={styles.footerAbout}>
+          <h1>About</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
+            deleniti expedita optio at a impedit vitae blanditiis quia
+          </p>
+          <ul className={styles.footerAboutSocial}>
+            <li>
+              <a href="">
+                <FaGithub className={styles.socialLink} />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <FaLinkedin className={styles.socialLink} />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <FaFacebook className={styles.socialLink} />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <FaSquareXTwitter className={styles.socialLink} />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.footerMyInfoLinks}>
+          <h3>Reach me</h3>
+          <ul>
+            <li>
+              <MdEmail className={styles.InfoLink} />
+              <a href="mailto:dev.manojkumar19@gmail.com">
+                dev.manojkumar19@gmail.com
+              </a>
+            </li>
+            <li>
+              <FaMobileAlt className={styles.InfoLink} />
+              <a href="tel:+919818609640">(+91)-9818609640</a>
+            </li>
+            <li>
+              <FaLocationDot className={styles.InfoLink} />
+              <p>266J/1 Ward 2 Mehrauli, New Delhi - 110030</p>
+            </li>
+          </ul>
+        </div>
+        <div className={styles.linksContainer}>
+          <div className={styles.footerQuickLinks}>
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#experience">Experience</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div className={styles.footerServices}>
+            <h3>Services</h3>
+            <ul>
+              <li>Android Developer</li>
+              <li>UI/Frontend Developer</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <ul className={styles.links}>
-        <li className={styles.link}>
-          <MdEmail className={styles.linkImg} />
-          <a href="mailto:raj.manoj34@gmail.com">Raj.manoj34@gmail.com</a>
-        </li>
-        <li className={styles.link}>
-          <FaGithub className={styles.linkImg} />
-          <a href="https://github.com/Manoj1902">github.com/Manoj1902</a>
-        </li>
-        <li className={styles.link}>
-          <FaLinkedin className={styles.linkImg} />
-          <a href="https://www.linkedin.com/in/manoj1902/">
-            linkedin.com/manoj1902
-          </a>
-        </li>
-      </ul>
+      <div className={styles.cpyRight}>
+        <p>Copyright © 2024 Manoj Kumar ®</p>
+      </div>
     </footer>
   );
 }

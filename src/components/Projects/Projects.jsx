@@ -9,11 +9,12 @@ import "slick-carousel/slick/slick-theme.css";
 function Projects() {
   const settings = {
     dots: true,
-    speed: 500,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1024,
