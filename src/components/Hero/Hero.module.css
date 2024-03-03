@@ -7,6 +7,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  gap: 40px;
 }
 
 .content {
@@ -17,18 +18,33 @@
   z-index: 1;
 }
 
+.greet {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.greet span {
+  color: #12f7d6;
+  font-weight: 600;
+}
+
 .title {
-  font-size: 72px;
+  font-size: 44px;
   font-weight: 900;
-  margin-bottom: 33px;
-  background: linear-gradient(90deg, #12f7d6 70%, rgba(0, 0, 0, 0.999) 120%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  margin-bottom: 26px;
+  color: #12f7d6;
+  /* background: linear-gradient(90deg, #12f7d6 70%, rgba(44, 44, 44, 0.999) 120%); */
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+  /* background-clip: text; */
 }
 
 .description {
-  font-size: 30px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.45;
   margin-bottom: 52px;
 }
 

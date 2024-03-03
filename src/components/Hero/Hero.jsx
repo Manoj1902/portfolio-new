@@ -30,8 +30,18 @@ function Hero() {
         </a>
       </div>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi</h1>
-        <p className={styles.description}>I am Android Developer</p>
+        <h3 className={styles.greet}>Hello There !</h3>
+        <h3 className={styles.greet}>
+          I'm <span>Manoj Kumar</span>
+        </h3>
+        <h1 className={styles.title}>Frontend Developer & Android Developer</h1>
+        <p className={styles.description}>
+          I'm a frontend and Android developer passionate about crafting
+          captivating user experiences. With expertise in building sleek
+          interfaces for web and mobile, I specialize in delivering innovative
+          solutions that exceed expectations. Let's collaborate and bring your
+          digital visions to life!
+        </p>
         <div className={styles.heroBtns}>
           <a className={styles.contactBtn} href="#contact">
             Contact Me

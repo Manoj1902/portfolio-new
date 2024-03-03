@@ -19,8 +19,9 @@ function About() {
             <div className={styles.aboutItemText}>
               <h3>UI/Frontend Developer</h3>
               <p>
-                I build websites & web applications that are optimized best to
-                the client's requirements and are scalable for future needs.
+                As a UI/Frontend Developer, I specialize in crafting visually
+                captivating and user-friendly interfaces that seamlessly merge
+                form with function.
               </p>
             </div>
           </li>
@@ -29,8 +30,9 @@ function About() {
             <div className={styles.aboutItemText}>
               <h3>Android Developer</h3>
               <p>
-                I build Android apps natively or with shared codebase (using
-                WebView-based techs) that never fails on users' device.
+                As an Android Developer, I focus on building innovative and
+                robust mobile applications that harness the full potential of
+                the Android platform.
               </p>
             </div>
           </li>

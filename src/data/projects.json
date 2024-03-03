@@ -1,6 +1,6 @@
 [
   {
-    "title": "Project 1",
+    "title": "Examob",
     "imageSrc": "./images/projects/examob.png",
     "description": "Company product showcase and information website",
     "skills": [
@@ -12,16 +12,16 @@
     "source": "https://examob.com/"
   },
   {
-    "title": "Project 2",
-    "imageSrc": "./images/projects/examob.png",
-    "description": "Company product showcase and information website",
+    "title": "Old Portfolio",
+    "imageSrc": "./images/projects/old_portfolio.png",
+    "description": "My old portfolio",
     "skills": [
       "./images/skills/html5.svg",
       "./images/skills/css3.svg",
       "./images/skills/javascript.svg"
     ],
-    "demo": "https://examob.com/",
-    "source": "https://examob.com/"
+    "demo": "https://my-portfolio-e2d8c.web.app/",
+    "source": "https://my-portfolio-e2d8c.web.app/"
   },
   {
     "title": "Project 3",
