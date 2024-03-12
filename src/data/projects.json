@@ -1,7 +1,7 @@
 [
   {
     "title": "Examob",
-    "imageSrc": "./images/projects/examob.png",
+    "imageSrc": "./images/projects/webapp.svg",
     "description": "Company product showcase and information website",
     "skills": [
       "./images/skills/html5.svg",
@@ -13,7 +13,7 @@
   },
   {
     "title": "Old Portfolio",
-    "imageSrc": "./images/projects/old_portfolio.png",
+    "imageSrc": "./images/projects/webapp.svg",
     "description": "My old portfolio",
     "skills": [
       "./images/skills/html5.svg",

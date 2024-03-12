@@ -9,26 +9,6 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 function Hero() {
   return (
     <section className={styles.container}>
-      <div className={styles.socialIcons}>
-        <a href="https://github.com/Manoj1902">
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/manoj1902/">
-          <FaLinkedin />
-        </a>
-        <a href="https://www.instagram.com/lakra_manoj0/">
-          <FaInstagramSquare />
-        </a>
-        <a href="https://www.facebook.com/shmanoj1902/">
-          <FaFacebookSquare />
-        </a>
-        <a href="https://twitter.com/ManojK1902">
-          <FaSquareXTwitter />
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=919818609640&text=Hi%2C%20I%20wanted%20to%20work%20with%20you">
-          <FaWhatsappSquare />
-        </a>
-      </div>
       <div className={styles.content}>
         <h3 className={styles.greet}>Hello There !</h3>
         <h3 className={styles.greet}>
@@ -36,11 +16,10 @@ function Hero() {
         </h3>
         <h1 className={styles.title}>Frontend Developer & Android Developer</h1>
         <p className={styles.description}>
-          I'm a frontend and Android developer passionate about crafting
-          captivating user experiences. With expertise in building sleek
-          interfaces for web and mobile, I specialize in delivering innovative
-          solutions that exceed expectations. Let's collaborate and bring your
-          digital visions to life!
+          Welcome! I'm a Frontend and Android developer passionate about
+          crafting captivating user experiences. With expertise in sleek web and
+          mobile interfaces, I deliver innovative solutions that exceed
+          expectations. <br /> Let's bring your digital dreams to life!
         </p>
         <div className={styles.heroBtns}>
           <a className={styles.contactBtn} href="#contact">

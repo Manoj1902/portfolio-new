@@ -10,11 +10,7 @@ function Footer() {
     <footer id="footer" className={styles.container}>
       <div className={styles.footerContent}>
         <div className={styles.footerAbout}>
-          <h1>About</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
-            deleniti expedita optio at a impedit vitae blanditiis quia
-          </p>
+          <img src="./images/logo.svg" alt="" />
           <ul className={styles.footerAboutSocial}>
             <li>
               <a href="">

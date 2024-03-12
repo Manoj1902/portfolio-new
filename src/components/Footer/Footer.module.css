@@ -10,16 +10,25 @@
 }
 
 .footerContent {
-  padding: 10% 10% 5% 10%;
+  padding: 5% 5% 2% 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 100px;
+  gap: 40px;
 }
 
 .footerAbout {
   width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerAbout img {
+  height: 100px;
+  width: 100px;
 }
 
 .footerAbout p {
