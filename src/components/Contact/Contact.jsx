@@ -31,27 +31,27 @@ function Contact() {
           <h3>Hire Me</h3>
           <p>Stay Chill and Tell Your Plan</p>
           <form ref={form} onSubmit={sendEmail}>
-            <label>
+            {/* <label>
               Name<span>*</span>
-            </label>
+            </label> */}
             <input
               type="text"
               placeholder="Full Name*"
               name="user_name"
               required
             />
-            <label>
+            {/* <label>
               Email<span>*</span>
-            </label>
+            </label> */}
             <input
               type="email"
               placeholder="Your Email Address*"
               name="user_email"
               required
             />
-            <label>
+            {/* <label>
               Message<span>*</span>
-            </label>
+            </label> */}
             <textarea name="message" placeholder="Let's talk..." required />
             <input className={styles.submitBtn} type="submit" value="Send" />
           </form>
