@@ -1,10 +1,26 @@
-import React, { useRef } from "react";
+import React, { useId, useRef, useState } from "react";
 import styles from "./Contact.module.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaLink } from "react-icons/fa6";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-function Contact() {
+function Contact(props) {
+  const [messageSent, setMessageSent] = useState(false);
+
+  const id = useId();
+  const [inputName, setInputName] = useState(props?.value ?? "");
+  const [inputEmail, setInputEmail] = useState(props?.value ?? "");
+  const [inputMessage, setInputMessage] = useState(props?.value ?? "");
+
+  const sent = () => {
+    toast.success("Message Sending");
+  };
+  const notSent = () => {
+    toast.warn("Please enter valid details");
+  };
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,6 +32,10 @@ function Contact() {
       .then(
         () => {
           console.log("SUCCESS!");
+          setInputName("");
+          setInputEmail("");
+          setInputMessage("");
+          setMessageSent(!false);
         },
         (error) => {
           console.log("FAILED...", error.text);
@@ -31,29 +51,51 @@ function Contact() {
           <h3>Hire Me</h3>
           <p>Stay Chill and Tell Your Plan</p>
           <form ref={form} onSubmit={sendEmail}>
-            <label>
+            {/* <label>
               Name<span>*</span>
-            </label>
+            </label> */}
+
             <input
+              id={id}
               type="text"
+              value={inputName}
+              onInput={(e) => setInputName(e.target.value)}
               placeholder="Full Name*"
               name="user_name"
               required
             />
-            <label>
+            {/* <label>
               Email<span>*</span>
-            </label>
+            </label> */}
             <input
+              id={id}
               type="email"
+              value={inputEmail}
+              onInput={(e) => setInputEmail(e.target.value)}
               placeholder="Your Email Address*"
               name="user_email"
               required
             />
-            <label>
+            {/* <label>
               Message<span>*</span>
-            </label>
-            <textarea name="message" placeholder="Let's talk..." required />
-            <input className={styles.submitBtn} type="submit" value="Send" />
+            </label> */}
+            <textarea
+              id={id}
+              name="message"
+              value={inputMessage}
+              onInput={(e) => setInputMessage(e.target.value)}
+              placeholder="Let's talk..."
+              required
+            />
+            <button
+              className={styles.submitBtn}
+              type="submit"
+              value="Send"
+              onClick={messageSent ? sent : notSent}
+            >
+              Send
+            </button>
+            {messageSent ? <ToastContainer /> : <ToastContainer />}
           </form>
         </div>
         <div className={styles.myInfo}>

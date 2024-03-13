@@ -1,9 +1,17 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { MdEmail } from "react-icons/md";
-import { FaGithub, FaLinkedin, FaFacebook, FaMobileAlt } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaMobileAlt,
+  FaWhatsappSquare,
+} from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -82,6 +90,24 @@ function Footer() {
       </div>
       <div className={styles.cpyRight}>
         <p>Copyright © 2024 Manoj Kumar ®</p>
+
+        <div className={styles.socialMediaIcons}>
+          <a href="">
+            <FaFacebook className={styles.icon} />
+          </a>
+          <a href="">
+            <FaInstagramSquare className={styles.icon} />
+          </a>
+          <a href="">
+            <FaWhatsappSquare className={styles.icon} />
+          </a>
+          <a href="">
+            <FaSquareXTwitter className={styles.icon} />
+          </a>
+          <a href="">
+            <FaLinkedin className={styles.icon} />
+          </a>
+        </div>
       </div>
     </footer>
   );
