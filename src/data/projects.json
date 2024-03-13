@@ -24,25 +24,25 @@
     "source": "https://my-portfolio-e2d8c.web.app/"
   },
   {
-    "title": "Project 3",
-    "imageSrc": "./images/projects/examob.png",
-    "description": "Company product showcase and information website",
+    "title": "Mausam",
+    "imageSrc": "./images/projects/android.svg",
+    "description": "A weather application which shows you the real time weather of your location",
     "skills": [
-      "./images/skills/html5.svg",
-      "./images/skills/css3.svg",
-      "./images/skills/javascript.svg"
+      "./images/skills/android.svg",
+      "./images/skills/xml.svg",
+      "./images/skills/java.svg"
     ],
     "demo": "https://examob.com/",
     "source": "https://examob.com/"
   },
   {
-    "title": "Project 4",
-    "imageSrc": "./images/projects/examob.png",
-    "description": "Company product showcase and information website",
+    "title": "MKS News",
+    "imageSrc": "./images/projects/android.svg",
+    "description": "A news application updates you with leatest news",
     "skills": [
-      "./images/skills/html5.svg",
-      "./images/skills/css3.svg",
-      "./images/skills/javascript.svg"
+      "./images/skills/android.svg",
+      "./images/skills/xml.svg",
+      "./images/skills/java.svg"
     ],
     "demo": "https://examob.com/",
     "source": "https://examob.com/"

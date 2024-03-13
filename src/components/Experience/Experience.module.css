@@ -15,17 +15,19 @@
 
 .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   margin-top: 30px;
-  gap: 10px;
+  gap: 60px;
 }
 
 .skills {
-  width: 45%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 36px;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill {
@@ -56,7 +58,7 @@
 }
 
 .history {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -66,7 +68,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 17px;
+  gap: 100px;
   background: #6157ff;
   background: linear-gradient(90deg, #6157ff 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
@@ -74,7 +76,10 @@
 }
 
 .historyItem img {
-  width: 100px;
+  width: 238px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 11px;
 }
 
 /* .historyItemDetails {} */
@@ -93,10 +98,11 @@
 .historyItemDetails ul {
   margin-top: 6px;
   list-style-position: outside;
-  font-size: 22px;
+  font-size: 18px;
   list-style-type: disc;
   margin-left: 17px;
   color: rgb(220, 220, 220);
+  line-height: 30px;
 }
 
 @media screen and (max-width: 830px) {
@@ -114,6 +120,16 @@
 
   .history {
     width: 100%;
-    gap: 10px;
+    gap: 25px;
+  }
+
+  .historyItem {
+    flex-direction: column;
+    gap: 20px;
+
+  }
+
+  .historyItem img {
+    width: 170px;
   }
 }

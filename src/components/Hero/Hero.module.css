@@ -147,21 +147,21 @@
   }
 }
 
-.topBlur {
+/* .topBlur {
   position: absolute;
-  width: 50vw;
-  height: 50vw;
+  width: 25vw;
+  height: 25vw;
   min-width: 350px;
   min-height: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 765px;
-  background: #4f5158a3;
+  background: #E76636a3;
   filter: blur(100px);
   z-index: 0;
-}
+} */
 
-.bottomBlur {
+/* .bottomBlur {
   position: absolute;
   width: 70vw;
   height: 50vw;
@@ -173,7 +173,7 @@
   background: #4f5158a3;
   filter: blur(100px);
   z-index: 0;
-}
+} */
 
 @media screen and (max-width: 830px) {
   .container {
