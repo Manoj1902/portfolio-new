@@ -126,14 +126,6 @@
   width: 20vw;
 }
 
-<<<<<<< HEAD
-=======
-.footerQuickLinks h3 {
-  font-size: 18px;
-  font-weight: 400;
-}
-
->>>>>>> 31f7d8f8fe20e6ee72db3a45f6970cfe6fc13898
 .footerQuickLinks ul {
   display: flex;
   flex-direction: column;
@@ -151,14 +143,6 @@
 .footerServices {
   width: 20vw;
 }
-<<<<<<< HEAD
-=======
-
-.footerServices h3 {
-  font-size: 18px;
-  font-weight: 400;
-}
->>>>>>> 31f7d8f8fe20e6ee72db3a45f6970cfe6fc13898
 
 .footerServices ul {
   display: flex;

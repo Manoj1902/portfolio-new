@@ -122,24 +122,11 @@
   .history {
     width: 100%;
     gap: 25px;
-<<<<<<< HEAD
   }
 
   .historyItem {
     flex-direction: column;
     gap: 20px;
-  }
-
-  .historyItem img {
-    width: 170px;
-=======
->>>>>>> 31f7d8f8fe20e6ee72db3a45f6970cfe6fc13898
-  }
-
-  .historyItem {
-    flex-direction: column;
-    gap: 20px;
-
   }
 
   .historyItem img {
