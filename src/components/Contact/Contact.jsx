@@ -54,7 +54,10 @@ function Contact(props) {
             {/* <label>
               Name<span>*</span>
             </label> */}
+<<<<<<< HEAD
 
+=======
+>>>>>>> 31f7d8f8fe20e6ee72db3a45f6970cfe6fc13898
             <input
               id={id}
               type="text"
@@ -79,6 +82,7 @@ function Contact(props) {
             {/* <label>
               Message<span>*</span>
             </label> */}
+<<<<<<< HEAD
             <textarea
               id={id}
               name="message"
@@ -96,6 +100,10 @@ function Contact(props) {
               Send
             </button>
             {messageSent ? <ToastContainer /> : <ToastContainer />}
+=======
+            <textarea name="message" placeholder="Let's talk..." required />
+            <input className={styles.submitBtn} type="submit" value="Send" />
+>>>>>>> 31f7d8f8fe20e6ee72db3a45f6970cfe6fc13898
           </form>
         </div>
         <div className={styles.myInfo}>
