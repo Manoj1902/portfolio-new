@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: normal;
   gap: 40px;
 }
 
@@ -29,6 +29,8 @@
 .footerAbout img {
   height: 100px;
   width: 100px;
+  cursor: pointer;
+  filter: drop-shadow(4px 4px 4px #000000);
 }
 
 .footerAbout p {
@@ -62,6 +64,7 @@
   color: white;
   border: 1px solid white;
   transition: 0.4s ease-in-out;
+  display: none;
 }
 
 .socialLink:hover {
@@ -185,19 +188,22 @@
 }
 
 .socialMediaIcons a:nth-child(1) {
-  color: #316ff6;
-}
-.socialMediaIcons a:nth-child(2) {
-  color: #dd2a7b;
-}
-.socialMediaIcons a:nth-child(3) {
-  color: #25d366;
-}
-.socialMediaIcons a:nth-child(4) {
   color: #000000;
 }
-.socialMediaIcons a:nth-child(5) {
+.socialMediaIcons a:nth-child(2) {
   color: #0a66c2;
+}
+.socialMediaIcons a:nth-child(3) {
+  color: #316ff6;
+}
+.socialMediaIcons a:nth-child(4) {
+  color: #dd2a7b;
+}
+.socialMediaIcons a:nth-child(5) {
+  color: #25d366;
+}
+.socialMediaIcons a:nth-child(6) {
+  color: #000000;
 }
 
 .icon {
@@ -284,5 +290,10 @@
 
   .footerServices {
     width: 49vw;
+  }
+
+  .cpyRight {
+    flex-direction: column-reverse;
+    gap: 20px;
   }
 }

@@ -17,7 +17,7 @@ function About() {
           <li className={styles.aboutItem}>
             <RiCodeBoxLine className={styles.iconImg} />
             <div className={styles.aboutItemText}>
-              <h3>UI/Frontend Developer</h3>
+              <h3>UI/Frontend Web Development</h3>
               <p>
                 As a UI/Frontend Developer, I specialize in crafting visually
                 captivating and user-friendly interfaces that seamlessly merge
@@ -28,7 +28,7 @@ function About() {
           <li className={styles.aboutItem}>
             <MdOutlineDeveloperMode className={styles.iconImg} />
             <div className={styles.aboutItemText}>
-              <h3>Android Developer</h3>
+              <h3>Android App Development</h3>
               <p>
                 As an Android Developer, I focus on building innovative and
                 robust mobile applications that harness the full potential of

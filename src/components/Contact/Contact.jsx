@@ -130,7 +130,9 @@ function Contact(props) {
               </div>
               <div className={styles.linkName}>
                 <span>GitHub: </span>
-                <a href="tel:+919818609640">(+91)-9818609640</a>
+                <a href="https://github.com/Manoj1902" target="_blank">
+                  girthub/manoj1902
+                </a>
               </div>
             </div>
           </div>

@@ -11,14 +11,15 @@ import {
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
 
 function Footer() {
   return (
     <footer id="footer" className={styles.container}>
       <div className={styles.footerContent}>
         <div className={styles.footerAbout}>
-          <img src="./images/logo.svg" alt="" />
+          <a href="#home">
+            <img src="./images/logo.svg" alt="" />
+          </a>
           <ul className={styles.footerAboutSocial}>
             <li>
               <a href="">
@@ -82,8 +83,8 @@ function Footer() {
           <div className={styles.footerServices}>
             <h3>Services</h3>
             <ul>
-              <li>Android Developer</li>
-              <li>UI/Frontend Developer</li>
+              <li>Android App Development</li>
+              <li>UI/Frontend Web Development</li>
             </ul>
           </div>
         </div>
@@ -92,6 +93,12 @@ function Footer() {
         <p>Copyright © 2024 Manoj Kumar ®</p>
 
         <div className={styles.socialMediaIcons}>
+          <a href="">
+            <FaGithub className={styles.icon} />
+          </a>
+          <a href="">
+            <FaLinkedin className={styles.icon} />
+          </a>
           <a href="">
             <FaFacebook className={styles.icon} />
           </a>
@@ -103,9 +110,6 @@ function Footer() {
           </a>
           <a href="">
             <FaSquareXTwitter className={styles.icon} />
-          </a>
-          <a href="">
-            <FaLinkedin className={styles.icon} />
           </a>
         </div>
       </div>

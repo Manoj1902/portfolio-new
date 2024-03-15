@@ -34,6 +34,7 @@
   font-size: 42px;
   font-weight: 900;
   margin-bottom: 26px;
+  line-height: 1.75;
   color: var(--themeColor);
   /* background: linear-gradient(90deg, #12f7d6 70%, rgba(44, 44, 44, 0.999) 120%); */
   /* -webkit-text-fill-color: transparent; */
@@ -43,7 +44,7 @@
 
 .description {
   font-size: 18px;
-  line-height: 1.45;
+  line-height: 1.65;
   margin-bottom: 52px;
 }
 
@@ -178,6 +179,7 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    gap: 10px;
   }
 
   .content {
@@ -187,5 +189,16 @@
   .socialIcons {
     flex-direction: row;
     margin-top: 50px;
+  }
+
+  .heroImg {
+    width: 70%;
+    height: 70%;
+  }
+  .title {
+    text-align: center;
+  }
+  .description {
+    text-align: justify;
   }
 }

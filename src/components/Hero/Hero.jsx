@@ -1,14 +1,9 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import { FaGithub, FaWhatsappSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 
 function Hero() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="home">
       <div className={styles.content}>
         <h3 className={styles.greet}>Hello There !</h3>
         <h3 className={styles.greet}>
