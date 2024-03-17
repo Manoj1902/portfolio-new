@@ -3,8 +3,12 @@
 :root {
   --themeColor: #12f7d6;
   --white: #ffffff;
+  --textColor: #e6e6e6;
+  --lightTextColor: #ababab;
   --black: #000000;
   --backgroundColor: #34353a;
+  --darkCardColor: #0c0c0c;
+  --semiDarkCardColor: #222222;
 }
 
 * {

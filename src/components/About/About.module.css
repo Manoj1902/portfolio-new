@@ -27,6 +27,16 @@
 
 .aboutImage {
   width: 35%;
+  height: 35%;
+  /* width: 40%; */
+  z-index: 1;
+  /* background: rgb(97, 87, 255); */
+  /* background: linear-gradient(140deg, #6157ff 0%, #12f7d680 50%, #00d4ff 100%); */
+  /* border-radius: 500px; */
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .aboutItems {
@@ -74,6 +84,20 @@
 .iconImg {
   font-size: 112px;
   padding: 10px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 @media screen and (max-width: 830px) {

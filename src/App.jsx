@@ -7,6 +7,7 @@ import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Testimonials from "./components/Testimonials/Testimonials";
 function App() {
   useEffect(() => {
     const handleContextmenu = (e) => {
@@ -32,6 +33,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <Testimonials />
       <Footer />
     </div>
   );
